@@ -5,3 +5,7 @@ ro.ril.telephony.mqanelements=6
 ro.telephony.ril_class=trlteRIL
 # Temporary:  REMOVE THIS FINGERPRINT LINE ONCE IT GETS BUILT IN
 ro.build.fingerprint=samsung/trltexx/trltexx:6.0/MRA58K/N910TUVU1ANIH:user/release-keys
+
+# Misc
+ro.product.device=trltexx
+ro.product.model=SM-N910F
