@@ -36,6 +36,17 @@ TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/trltexx/init/init_trlte.cpp
 TARGET_UNIFIED_DEVICE := true
 
+# BlissMallow 
+TARGET_TC_ROM := 4.9
+TARGET_TC_KERNEL := 4.8
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+
+
+#SaberMod
+-include vendor/bliss/config/sm.mk
+
+
 # Radio
 BOARD_RIL_CLASS := ../../../device/samsung/trltexx/ril
 
